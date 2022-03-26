@@ -5,7 +5,7 @@ The module checks the query string, route params, and body for any sql injection
 
 ```js
 var app = express();
-var sqlinjection = require("sql-injection");
+var sqlinjection = require("express-sqlinjection-protect");
 app.use(sqlinjection);
 ```
 
@@ -19,7 +19,7 @@ code example:
 
 ```js
 var express = require("express");
-var sqlinjection = require("sql-injection");
+var sqlinjection = require("express-sqlinjection-protect");
 
 var app = express();
 
