@@ -1,0 +1,50 @@
+{
+    "name": "express-sqlinjection-protect",
+    "description": "This module checks for sql injection using regex and rejects requests with 403 response if sql is found",
+    "version": "1.0.0",
+    "author": "vCesar",
+    "homepage": "https://github.com/vCesar1mx/express-sqlinjection-protect",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vCesar1mx/express-sqlinjection-protect"
+    },
+    "main": "./lib/index",
+    "scripts": {
+        "test": "grunt test"
+    },
+    "dependencies": {
+        "raw-body": "~2.2.0"
+    },
+    "devDependencies": {
+        "chai": "~3.5.0",
+        "grunt": "~1.0.1",
+        "grunt-cli": "~1.2.0",
+        "grunt-contrib-jshint": "~1.1.0",
+        "grunt-contrib-watch": "~1.0.0",
+        "grunt-simple-mocha": "~0.4.1",
+        "grunt-bump": "~0.8.0",
+        "mocha": "~3.3.0",
+        "supertest": "~3.0.0",
+        "express": "~4.15.2"
+    },
+    "keywords": [
+	"protect",
+	"express-sql",
+	"sqlprotect",
+	"antisql",
+        "sql",
+        "injection",
+        "sqlinjection",
+        "security",
+        "express",
+        "expressjs",
+        "module"
+    ],
+    "bugs": {
+        "url": "https://github.com/vCesar1mx/express-sqlinjection-protect/issues"
+    },
+    "directories": {
+        "test": "test"
+    },
+    "license": "MIT"
+}
